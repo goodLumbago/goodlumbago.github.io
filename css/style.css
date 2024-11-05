@@ -614,6 +614,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   height: 350px;
   float: left;
+  
 }
 @media screen and (max-width: 480px) {
   .author .author-inner {
@@ -1237,7 +1238,23 @@ h1, h2, h3, h4, h5, h6, figure {
 .js .animate-box {
   opacity: 0;
 }
-
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-child {
+  flex: 1;
+}  
+.flex-child:first-child {
+  margin-right: -20%;
+}
 .testimony {
   margin: 5em 0;
 }
