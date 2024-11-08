@@ -18,6 +18,10 @@ body {
   color: #828282;
   background: #fff;
 }
+.email{
+  width: 300px;
+  color: #8c7961;
+}
 
 #page {
   position: relative;
@@ -54,7 +58,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #cabcab;
+  color: black;
   outline: none;
   text-decoration: none;
 }
