@@ -23,6 +23,24 @@ body {
   color: #8c7961;
 }
 
+.description{
+  text-align: justify;
+  vertical-align: middle;
+  width: 50%;
+}
+.description-container{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .description {
+    width: 90vw;
+    margin-left: 3.5%;
+  }
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
